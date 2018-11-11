@@ -19,9 +19,9 @@ def valid_parentheses(string):
     right_count = 0
     for i in range(len(string)):
         if string[i] == '(':
-            left_count +=1
+            left_count+=1
         if string[i] == ')':
-            right_count +=1
+            right_count+=1
         if right_count > left_count:
             return False
     if left_count == right_count:
