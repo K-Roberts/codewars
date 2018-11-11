@@ -26,3 +26,5 @@ def valid_parentheses(string):
             return False
     if left_count == right_count:
         return True
+    else:
+        return False
