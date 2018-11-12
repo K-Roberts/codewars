@@ -58,3 +58,22 @@ def escape(carpark):
             result.append('R' + str(abs(spaces)))
         
     return result   
+    
+    
+print(escape([[2, 0, 0, 1, 0],
+           [0, 0, 0, 1, 0],
+           [0, 0, 0, 0, 0]]))
+
+print(escape([[1, 0, 0, 0, 2],
+           [0, 0, 0, 0, 0]]))
+                
+            
+print(escape([[1, 0, 0, 0, 2],
+           [0, 0, 0, 0, 1],
+           [1, 0, 0, 0, 0],
+           [0, 0, 0, 0, 0]]))            
+        
+print(escape([[0, 2, 0, 0, 1],
+           [0, 0, 0, 0, 1],
+           [0, 0, 0, 0, 1],
+           [0, 0, 0, 0, 0]]))
