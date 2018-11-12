@@ -20,13 +20,12 @@ import math
 
 def list_squared(m, n):
     divisor_lst = []
-    squared_divisor_lst = []
     squared_sum = 0
     if 1 <= m <= n:
         for i in range(m, n+1):
             if n%i == 0:
                 divisor_lst.append(i)
-    sqr = [i**2 for i in divisor_lst]
+    squared_divisor_lst = [i**2 for i in divisor_lst]
     for i in sqr:
         squared_sum += i
         if math.sqrt(squared_sum).is_integer():
