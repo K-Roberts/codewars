@@ -50,6 +50,8 @@ def escape(carpark):
                 top_spot = level.index(stairs)
                 
         else:
+            if not result[-1].startswith('D'):
+                result.append('D1')
             spaces = top_spot - (len(level)-1)
             if spaces == 0:
                 return None
