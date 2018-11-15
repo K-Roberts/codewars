@@ -62,4 +62,4 @@ def find_all(sum_dig, digs):
     
     if len(final) == 0:
         return []                    
-    return [len(final), min(final), max(final)]
+    return [len(final), min(final), max(final)] 
